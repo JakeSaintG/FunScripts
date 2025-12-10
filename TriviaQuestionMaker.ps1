@@ -91,7 +91,6 @@ $form.Controls.Add($option4)
 
 $form.Topmost = $true
 
-$form.Add_Shown({$textBox.Select()})
 $result = $form.ShowDialog()
 
 if (-not($result -eq [System.Windows.Forms.DialogResult]::OK)) {
